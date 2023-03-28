@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar 1 */
+
+body .Navbar1 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 100px;
+}
+
+body .Navbar1 .MenuItems {
+    justify-content: space-around;
+}
+
+body .Navbar1 .MenuItems span {
+    align-items: center;
+    font-size: 60px;
+}
+
+body .Navbar1 .MenuItems {
+    align-items: center;
+    display: flex;
+}
+
+body .Navbar1 .MenuItems .Items {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 700px 0 0;
+    width: 300px;
+}
+
+body .Navbar1 .MenuItems .Items p {
+    color: #393939;
+}
+
+body .Navbar1 .Buttons {
+    display: flex;
+    gap: 20px;
+    padding: 16px;
+    width: 300px;
+}
+
+body .Navbar1 .Buttons span {
+    align-items: center;
+    font-size: 30px;
+}
+
+body .Navbar1 .Buttons .Boton1 {
+    background: none;
+    border: 2px solid #393939;
+    border-radius: 3px;
+    color: #393939;
+    cursor: pointer;
+    padding: 0 16px;
+}
+
+body .Navbar1 .Buttons .Boton2 {
+    background: #393939;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0 16px;
+}
+
+/* Footer */
+
+body .Footer {
+    align-items: center;
+    background: #242424;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+body .Footer .Footer1 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin: 100px 200px;
+}
+
+body .Footer .Footer1 .izquierda > span {
+    color: #999999;
+    font-size: 60px;
+}
+
+body .Footer .Footer1 .izquierda {
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    width: 500px;
+}
+
+body .Footer .Footer1 .Plataformas {
+    align-content: start;
+    color: #999999;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    text-align: center;
+}
+
+body .Footer .Footer1 .derecha {
+    display: flex;
+    gap: 40px;
+}
+
+body .Footer .Footer1 .derecha .enlaces {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+body .Footer .Footer1 .derecha .enlaces .Redes {
+    align-content: start;
+    color: #999999;
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+
+body .Footer .Copyright h5 {
+    background: #393939;
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+    width: 1535px;
+}
